@@ -30,11 +30,5 @@ mkdir ~/p0tion-tmp
 # Naviguer vers le répertoire temporaire créé
 cd ~/p0tion-tmp
 
-# Installer le package @p0tion/phase2cli via npm
-npm i @p0tion/phase2cli
-
 # Démarrer une nouvelle session screen nommée "p0tion"
 screen -S p0tion
-
-# Exécuter la commande 'npx phase2cli auth'
-npx phase2cli auth
