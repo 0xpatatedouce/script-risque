@@ -15,6 +15,9 @@ curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh -o inst
 # Installer NVM en exécutant le script d'installation
 sh install_nvm.sh
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
 # Installer la version spécifique de NodeJS (16.20) avec NVM
 nvm install 16.20
 
