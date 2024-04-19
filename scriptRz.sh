@@ -6,7 +6,7 @@ exists()
 if exists curl; then
 echo ''
 else
-  sudo apt update && sudo apt install curl screen -y < "/dev/null"
+  sudo apt update && sudo apt upgrade && sudo apt install curl screen -y < "/dev/null"
 fi
 
 # Télécharger le script d'installation de NVM depuis GitHub
